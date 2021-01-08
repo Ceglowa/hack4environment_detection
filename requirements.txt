@@ -1,0 +1,11 @@
+matplotlib
+geopy
+scipy
+numpy
+rtree
+fiona
+GDAL
+shapely
+geopandas
+sklearn
+jupyter
