@@ -15,7 +15,7 @@ from scipy.spatial.distance import cdist
 from geopy.distance import distance as geodist
 
 
-with open("jsondata.json") as f:
+with open("data/jsondata.json") as f:
     js = json.load(f)
     coords = [feat['geometry']['coordinates'] for feat in js['features']]
     ble = [Point(c) for c in coords]
